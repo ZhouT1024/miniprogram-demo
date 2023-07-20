@@ -1,2 +1,2 @@
-<!--pages/getAppVersion/getAppVersion.wxml-->
-<text>pages/getAppVersion/getAppVersion.wxml</text>
+<view wx:if="{{ envVersion === 'release' }}">{{ appVersion }}</view>
+<view wx:else="{{ envVersion !== 'release' }}">版本号仅支持在正式版小程序中获取</view>

@@ -1,2 +1,5 @@
 <mp-cells>
+  <mp-cell class="nav-link" bindtap="navigateTo" data-url="../getAppVersion/getAppVersion" link hover>
+    <view>获取小程序版本号</view>
+  </mp-cell>
 </mp-cells>
